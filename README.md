@@ -1,2 +1,3 @@
 # simple_shell
-simple UNIX command interpreter.
+simple UNIX command interpreter alx project  .
+
