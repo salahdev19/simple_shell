@@ -157,21 +157,21 @@ char **strtow2(char *, char);
 
 
 
-/* memory_functions */
+/* shell_memory_functions */
 char *_memset(char *, char, unsigned int);
 void ffree(char **);
 void *_realloc(void *, unsigned int, unsigned int);
 
-/* memory_functions2.c */
+/* shell_memory_functions2.c */
 int bfree(void **);
 
-/* more_functions.c */
+/* shell_more_functions.c */
 int interactive(info_t *);
 int is_delim(char, char *);
 int _isalpha(int);
 int _atoi(char *);
 
-/* more_functions2.c */
+/* shell_more_functions2.c */
 int _erratoi(char *);
 void print_error(info_t *, char *);
 int print_d(int, int);
